@@ -29,7 +29,7 @@ const Home: NextPage = () => {
       </main>
 
       <footer className={styles.footer}>
-        <ul style={{ listStyle: 'none' }}>
+        <ul style={{ listStyle: 'none', textAlign: 'center' }}>
           <li>Last Updated</li>
           <li title="Hijri">1444⁄<span style={{ direction: 'rtl' }}>صَفَر</span>⁄16</li>
           <li>≡</li>
